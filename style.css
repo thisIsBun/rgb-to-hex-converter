@@ -1,0 +1,98 @@
+html,
+body {
+  font-family: "roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #a6a6a6;
+  width: 660px;
+  height: 243px;
+}
+
+.RGB {
+  /*   flex-basis: 65%; */
+  padding: 22px 45px 15px 24px;
+}
+
+.HEX {
+  flex-grow: 1;
+  padding: 22px 34px 63px 40px;
+}
+
+h3 {
+  margin: 0 0 5px 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h4 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.RGB-table {
+  width: 359px;
+  height: 129px;
+}
+
+input {
+  width: 277px;
+  height: 33px;
+  margin: 3px 0 3px 15px;
+  padding: 1px 2px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+}
+
+.color-brick {
+  width: 33px;
+  height: 33px;
+  padding: 1px 2px;
+  margin: 3px 0 3px 8px;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+}
+
+p {
+  width: 150px;
+  height: 24px;
+  margin: 12px 0 14px 0;
+  border: 1px solid #cecece;
+  font-size: 20px;
+}
+
+.color-brick-big {
+  width: 87px;
+  height: 87px;
+  /*   padding: 1px 2px;
+  margin: 3px 0 3px 8px; */
+  border: 1px solid #cecece;
+}
+
+button {
+  position: relative;
+  top: 7px;
+  width: 73px;
+  height: 33px;
+  border: 1px solid #3f7eee;
+  border-radius: 4px;
+  background-color: #3f7eee;
+  color: #fff;
+}
+
+h4,
+span,
+td,
+button {
+  margin: 0;
+  padding: 0;
+}

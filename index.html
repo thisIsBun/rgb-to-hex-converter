@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB to HEX Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div class="container">
+    <section class="RGB">
+      <h3>RGB</h3>
+      <table class="RGB-table">
+        <tr>
+          <td>
+            <h4>R: </h4>
+          </td>
+          <td>
+            <input class="input R-input" type="number" placeholder="0~255" min="0" max="255" step="1">
+          </td>
+          <td>
+            <div class="color-brick R-brick"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>G: </h4>
+          </td>
+          <td>
+            <input class="input G-input" type="number" placeholder="0~255" min="0" max="255" step="1">
+          </td>
+          <td>
+            <div class="color-brick G-brick"></div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h4>B: </h4>
+          </td>
+          <td>
+            <input class="input B-input" type="number" placeholder="0~255" min="0" max="255" step="1">
+          </td>
+          <td>
+            <div class="color-brick B-brick"></div>
+          </td>
+        </tr>
+      </table>
+      <button>Convert</button>
+    </section>
+    <section class="HEX">
+      <h3>HEX</h3>
+      <p id="hex-label">000000</p>
+      <div class="color-brick-big"></div>
+    </section>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
